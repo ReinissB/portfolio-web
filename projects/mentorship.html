@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project case - Mentorship portal</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/svg/favicon.svg">
+     <!-- Styles -->
+    <link href="../assets/styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../assets/styles/projects.css" rel="stylesheet" type="text/css">
+    <!-- Onscroll animation library by https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- JavaScript -->
+    <script src="../assets/js/script.js" defer></script>
+    <!-- Onscroll animation library by https://michalsnik.github.io/aos/ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <div class="grid-container">
+        <header>
+            <section class="main-nav" data-aos="fade-down" data-aos-duration="600">
+                <article class="logo" onclick="logoHome()">
+                    <p>Rb</p><span class="logo-dot">.</span>
+                </article>
+                <nav class="main-nav-links">
+                    <ul>
+                        <li><a href="../index.html" class="nav-active">My work</a></li>
+                        <li><a href="../aboutme/aboutme.html">Get to know me</a></li>
+                        <li><a href="../assets/pdf/reinis_burkevics_cv.pdf" target="_blank" class="ic-resume">My resume</a></li>
+                    </ul>
+                </nav>
+                <section class="social-icons">
+                    <a href="https://instagram.com/ReinissB" class="instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-instagram" d="M14,10.4A3.6,3.6,0,1,0,17.6,14,3.6,3.6,0,0,0,14,10.4ZM14,8a6,6,0,1,1-6,6A6,6,0,0,1,14,8Zm7.8-.3a1.5,1.5,0,1,1-1.5-1.5A1.5,1.5,0,0,1,21.8,7.7ZM14,4.4c-2.969,0-3.454.008-4.835.07a6.519,6.519,0,0,0-2.158.4,3.464,3.464,0,0,0-1.3.844,3.468,3.468,0,0,0-.845,1.3,6.51,6.51,0,0,0-.4,2.158C4.407,10.49,4.4,10.953,4.4,14c0,2.969.008,3.454.07,4.835a6.545,6.545,0,0,0,.4,2.156,3.731,3.731,0,0,0,2.138,2.14,6.533,6.533,0,0,0,2.16.4c1.325.062,1.788.07,4.835.07,2.969,0,3.454-.008,4.835-.07a6.558,6.558,0,0,0,2.156-.4,3.505,3.505,0,0,0,1.3-.842,3.47,3.47,0,0,0,.845-1.3,6.56,6.56,0,0,0,.4-2.16c.062-1.325.07-1.788.07-4.835,0-2.969-.008-3.454-.07-4.835a6.532,6.532,0,0,0-.4-2.158,3.493,3.493,0,0,0-.844-1.3,3.461,3.461,0,0,0-1.3-.845,6.516,6.516,0,0,0-2.158-.4C17.51,4.407,17.047,4.4,14,4.4ZM14,2c3.26,0,3.667.012,4.946.072a8.84,8.84,0,0,1,2.914.558,5.851,5.851,0,0,1,2.126,1.384A5.89,5.89,0,0,1,25.37,6.14a8.865,8.865,0,0,1,.558,2.914C25.984,10.333,26,10.74,26,14s-.012,3.667-.072,4.946a8.871,8.871,0,0,1-.558,2.914,6.127,6.127,0,0,1-3.51,3.51,8.865,8.865,0,0,1-2.914.558C17.667,25.984,17.26,26,14,26s-3.667-.012-4.946-.072A8.871,8.871,0,0,1,6.14,25.37a6.127,6.127,0,0,1-3.51-3.51,8.834,8.834,0,0,1-.558-2.914C2.016,17.667,2,17.26,2,14s.012-3.667.072-4.946A8.834,8.834,0,0,1,2.63,6.14,5.856,5.856,0,0,1,4.014,4.014,5.876,5.876,0,0,1,6.14,2.63a8.834,8.834,0,0,1,2.914-.558C10.333,2.016,10.74,2,14,2Z" transform="translate(-2 -2)"/>
+                            <defs>
+                                <linearGradient id="instagradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                  <stop offset="0%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="5%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="45%" style="stop-color:#fd5949;stop-opacity:1" />
+                                  <stop offset="60%" style="stop-color:#d6249f;stop-opacity:1" />
+                                  <stop offset="90%" style="stop-color:#285AEB;stop-opacity:1" />
+                                </linearGradient>
+                              </defs>
+                        </svg>   
+                    </a>
+                    <a href="https://www.linkedin.com/in/reinis-burkevics-305960168/" class="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                            <path id="svg-linkedin" d="M4.222,3H23.778A1.222,1.222,0,0,1,25,4.222V23.778A1.222,1.222,0,0,1,23.778,25H4.222A1.222,1.222,0,0,1,3,23.778V4.222A1.222,1.222,0,0,1,4.222,3ZM5.444,5.444V22.556H22.556V5.444ZM8.5,10.333A1.833,1.833,0,1,1,10.333,8.5,1.833,1.833,0,0,1,8.5,10.333ZM7.278,11.556H9.722v9.167H7.278ZM14,12.081a3.572,3.572,0,0,1,2.444-1.137,4.333,4.333,0,0,1,4.278,4.583v5.194H18.278V15.528a2.139,2.139,0,0,0-4.278,0v5.194H11.556V11.556H14Z" transform="translate(-3 -3)"/>
+                        </svg>  
+                     </a>
+                     <a href="https://dribbble.com/ReinissB" class="dribbble">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-dribbble" d="M23.587,13.486A9.552,9.552,0,0,0,21.7,8.265a11.7,11.7,0,0,1-1.1,1.044,15.788,15.788,0,0,1-3.976,2.412c.2.42.384.827.546,1.211v0q.069.161.132.324a23.033,23.033,0,0,1,5.588.121c.247.034.48.07.7.106ZM12.325,4.546a55.4,55.4,0,0,1,3.23,5.124,13.327,13.327,0,0,0,3.658-2.12,9.456,9.456,0,0,0,.955-.906A9.562,9.562,0,0,0,14,4.4a9.66,9.66,0,0,0-1.675.145ZM4.7,11.6q1.226-.031,2.448-.148a37.837,37.837,0,0,0,5.834-.986q-1.5-2.61-3.24-5.072A9.622,9.622,0,0,0,4.7,11.6ZM6.54,20.042a17.128,17.128,0,0,1,1.89-2.279,15.148,15.148,0,0,1,6.187-3.948l.074-.022c-.2-.437-.384-.827-.571-1.194a36.1,36.1,0,0,1-6.836,1.25c-1.128.1-2.14.146-2.884.154a9.56,9.56,0,0,0,2.141,6.038ZM17.606,22.9a43.136,43.136,0,0,0-1.958-6.851,15.215,15.215,0,0,0-5.8,3.67A11.724,11.724,0,0,0,8.271,21.7a9.615,9.615,0,0,0,9.335,1.2Zm2.248-1.29a9.6,9.6,0,0,0,3.584-5.844,14.648,14.648,0,0,0-1.494-.283,14.428,14.428,0,0,0-3.816-.04,47.241,47.241,0,0,1,1.726,6.168ZM14,26A12,12,0,1,1,26,14,12,12,0,0,1,14,26Z" transform="translate(-2 -2)"/>
+                        </svg>                       
+                     </a>
+                     <a href="https://www.behance.net/reinissb" class="behance">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18.493" viewBox="0 0 26 18.493">
+                            <path id="svg-behance" d="M8.682,12.656A2.463,2.463,0,0,0,11.045,10.1,2.463,2.463,0,0,0,8.682,7.552H3.364v5.1Zm1.182,2.552h-6.5v5.1h6.5a2.463,2.463,0,0,0,2.364-2.552A2.463,2.463,0,0,0,9.864,15.208ZM12.3,13.386a5.291,5.291,0,0,1,2.119,5.74,4.8,4.8,0,0,1-4.557,3.738H1V5H8.682a4.717,4.717,0,0,1,4.284,2.947A5.431,5.431,0,0,1,12.3,13.386Zm5.835-7.11h6.5V8.19h-6.5ZM27,17.122H18.136v.319a3.467,3.467,0,0,0,2.49,3.413,3.175,3.175,0,0,0,3.655-1.818H26.8a5.637,5.637,0,0,1-6.161,4.4,5.928,5.928,0,0,1-4.871-6V15.527a5.85,5.85,0,0,1,5.614-6.061A5.85,5.85,0,0,1,27,15.527v1.595ZM24.513,14.57a3.192,3.192,0,0,0-6.254,0Z" transform="translate(-1 -5)"/>
+                        </svg> 
+                     </a>
+                </section>
+            </section>
+        </header>
+    </div>
+    <nav class="steps-nav nav-hidden">
+        <li class="problem-task"><a href="#problem-task">01. Problem & Main task</a></li>
+        <li class="project-planning"><a href="#look-feel">02. Look & Feel</a></li>
+        <li class="user-research"><a href="#collaboration-iterations">03. Collaboration & Iterations</a></li>
+        <li class="ideations-content"><a href="#front-end-design">04. Front-end design</a></li>
+        <li class="low-fi-wireframes"><a href="#back-end">05. Back-end design</a></li>
+        <li class="hi-fi-design"><a href="#hi-fi-design">06. Design & Final product</a></li>
+    </nav>
+    <div class="grid-container">
+        <divd class="project-study">
+            <article class="thumbnail">
+                <img src="../assets/img/mentorship-big.png" alt="Mentorship portal thumbnail">
+            </article>
+            <div class="small-grid-container">
+                <button onclick="history.back()" class="go-back">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24">
+                        <g id="svg-goback" transform="translate(24 24) rotate(180)">
+                          <path id="Path_52" data-name="Path 52" d="M0,0H24V24H0Z" fill="none"/>
+                          <path id="Path_53" data-name="Path 53" d="M16.172,11,10.808,5.636l1.414-1.414L20,12l-7.778,7.778-1.414-1.414L16.172,13H-6V11Z"/>
+                        </g>
+                    </svg>   
+                    Go back
+                </button>
+            <article class="introduction">
+                <article class="intro-title">
+                    <h1 class="main-project-title">
+                        Student mentorship portal
+                    </h1>
+                    <p class="p-big">
+                        Front-end desktop and mobile UI design, back-end portal UI design.
+                    </p>
+                </article>
+                <article class="project-facts">
+                    <article class="fact">
+                        <p class="fact-s-title">The client</p>
+                        <h4 class="fact-title">Design agency</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">Project duration</p>
+                        <h4 class="fact-title">Approximately 1.5 weeks</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">Collaboration</p>
+                        <h4 class="fact-title">Illustrator, Project manager</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">Technologies used</p>
+                        <h4 class="fact-title">Adobe Xd, ClickUp</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">My roles</p>
+                        <h4 class="fact-title">User Interface design</h4>
+                    </article>
+                    <article class="fact fact-view-live" onclick="viewLiveMentor()">
+                       <p>View it live</p>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24">
+                        <g id="svg-view-live" transform="translate(6)">
+                          <path id="Path_52" data-name="Path 52" d="M0,0H24V24H0Z" fill="none"/>
+                          <path id="Path_53" data-name="Path 53" d="M16.172,11,10.808,5.636l1.414-1.414L20,12l-7.778,7.778-1.414-1.414L16.172,13H-6V11Z" fill="#eaeaf3"/>
+                        </g>
+                      </svg>                      
+                    </article>
+                </article>
+            </article>
+            <article class="project-step problem-task" id="problem-task">
+                <p class="step-small-title">01. Problem & Main task</p>
+                <h2 class="step-main-title">Acknowledging the problem</h2>
+                <p class="p-big step-p">
+                    Nowadays, <mark class="primary-mark">many students struggle with mental health problems, are being bullied, 
+                    not accepted by others, and offended in other ways.</mark> Unfortunately, many schools 
+                    do not provide the necessary tools to deal with these situations and students 
+                    are left dealing with the problem themselves. <mark class="secondary-mark">Student mentorship portal (fictive name) 
+                    is meant to provide students with thoughtful and discreet mentors, who get it.</mark>
+                </p>
+            </article>
+            <article class="project-step project-planning" id="look-feel">
+                <p class="step-small-title">02. Look & Feel</p>
+                <h2 class="step-main-title">Color palette, font family and illustrations</h2>
+                <h3 class="step-secondary-title">2.0. Color palette & Font family</h3>
+                <p class="p-big step-p">
+                    Creating a color palette and choosing a font family that fit was an important step as these 
+                    two design elements play a big part in defining the overall feeling of the website.
+                </p>
+                <p class="p-big step-p">
+                    <mark class="primary-mark">To form a calm and safe-space feeling, the chosen colors were green, beige and orange, 
+                    where green reflects hope, beige – trust and orange – optimism and energy.</mark> Beige was mostly 
+                    used as background color for the website, to maintain a warm feeling over the website and 
+                    encourage students to trust the portal and their mentors. Orange color was used for 
+                    CTA buttons, to make students feel optimistic about making the important steps towards 
+                    talking to mentors. To create a better visual hierarchy, green was used in illustrations, 
+                    icons and multiple section backgrounds.  
+                </p>
+                <img class="bottom30px" src="../assets/img/font-colors-mentor.png" alt="Color palette and font">
+                <h3 class="step-secondary-title">2.1. Illustrations & Icons</h3>
+                <p class="p-big step-p">
+                   To emphasize trust and safe feeling even more, <mark class="secondary-mark">I collaborated with an illustration designer 
+                    who designed illustrations that fit together with the interface and trigger positive emotions 
+                    in the users.</mark> The illustrations were designed in a hand drawn manner, curvy and non-perfect 
+                    lines, and colors. 
+                </p>
+                <p class="p-big step-p">
+                    Throughout the website, I designed different shapes and design elements to make the design more playful 
+                    and appealing, which, again was done to make the portal look safe, encouraging, and optimistic. 
+                    <mark class="primary-mark">The icons, illustrations and other UI elements have round corners, to prevent emphasizing danger 
+                    and lack of safety, which are the characteristics for the opposite – sharp corners and shapes.</mark> 
+                </p>
+                <img src="../assets/img/shapes-mentor.png" alt="Shapes in design">
+                <img src="../assets/img/illustrations-mentor.png" alt="Illustrations in design">
+            </article>
+            <article class="project-step user-research" id="collaboration-iterations">
+                <p class="step-small-title">03. Collaboration & Iterations</p>
+                <h2 class="step-main-title">Getting feedback and adjusting the design</h2>
+                <p class="p-big step-p">
+                    Even though the UX design was based on basic wireframes that I was provided with 
+                    from the project manager, there were many changes needed during the process. <mark class="primary-mark">During 
+                    the one-and-a-half-week speed run, I constantly shared the progress with the project 
+                    manager and received feedback from him as well as the project owners.</mark> Working agile 
+                    helped me to explore most of my ideas and allowed me to take steps back if needed. 
+                    The design was iterated multiple times, until the project owner and manager were 
+                    satisfied with the result, which afterwards was prepared and sent to the developers.
+                </p>
+            <article class="project-step ideations-content" id="front-end-design">
+                <p class="step-small-title">04. Front-end design</p>
+                <h2 class="step-main-title">Design choices and mobile version</h2>
+                <h3 class="step-secondary-title">4.0. Design choices</h3>
+                <p class="p-big step-p">
+                    As I mentioned before, the main goal was to make students in need feel safe and full of hope. 
+                    These requirements were kept in mind throughout the whole design process, which lead me 
+                    to making multiple design choices.
+                </p>
+                <article class="user-categorization">
+                    <div class="purpose">
+                        <h3 class="categorization-title">Whitespace</h3>
+                        <p class="p-big">
+                            I chose to give the design <mark class="primary-mark">quite a lot of whitespace, to allow the content to 
+                            breathe and allow users to easily interact with the website</mark> without being 
+                            overwhelmed by other content.
+                        </p>
+                        <h3 class="categorization-title">Illustrations, icons and shapes</h3>
+                        <p class="p-big">
+                            Illustrations, icons and were frequently used around the website, made specifically 
+                            to talk and encourage users, as well as to give friendly feeling.
+                        </p>
+                        <h3 class="categorization-title">Design patterns</h3>
+                        <p class="p-big">
+                            Cards, step by step explanations, testimonials, and other design patterns were used 
+                            in the design to ensure that the user doesn’t have to spend much time getting familiar 
+                            with the content.
+                        </p>
+                    </div>
+                </article>
+                <img src="../assets/img/patterns-mentor.png" alt="Design patterns">
+                <h3 class="step-secondary-title">4.1. Mobile version</h3>
+                <p class="p-big step-p">
+                    For the front-end solution, I also designed the mobile version, which was designed 
+                    after the desktop version, while removing some unnecessary elements that would make 
+                    the design clustered because of the small screen size. Also, most of the content 
+                    was centered, to ease navigating between content. On some occasions, the CTA buttons 
+                    or clickable areas were made bigger, to ensure accidental errors like pressing the 
+                    wrong button.
+                </p>
+                <img class="img100pc"src="../assets/img/mobile-design-mentor.png" alt="Mobile designs">
+            </article>
+            <article class="project-step low-fidelity" id="back-end">
+                <p class="step-small-title">05. Back-end design</p>
+                <h2 class="step-main-title">Portal design for mentors and students</h2>
+                <h3 class="step-secondary-title">5.1. Sketching process</h3>
+                <p class="p-big step-p">
+                    After designing the front-end portal and being completely familiar with how the portal works,
+                    <mark class="primary-mark">I designed the back-end portal, which purpose was to create meetings, chat with mentors, 
+                     view meeting calendar and more.</mark> The portal design consisted of many design patterns like 
+                     cards, calendar, pop-ups, tables and more. <mark class="secondary-mark">The overall design remained the same as in 
+                     front-end solution,</mark> with some minor changes and adjustments.
+                </p>
+                <img class="bottom30px" src="../assets/img/portal-design.png" alt="Portal design">
+            </article>
+        </div>
+    </div>
+    <div class="small-grid-container">
+        <article class="project-step high-fidelity" id="hi-fi-design">
+                <p class="step-small-title">06. Final product<p>
+                <h2 class="step-main-title">Front-end, mobile and back-end portal design</h2>
+                <p class="p-big step-p">
+                    After finishing the designs for all the platforms, I re-checked the components and exported them for 
+                    the developers. Overall, this is one of my favorite UI projects regarding the process, meaning of 
+                    the project and the final result itself.
+                </p>
+                <p class="embedd-help">You can view the final prototypes, embedded down below.</p>
+            </article>
+    </div>
+    <div class="iframe">
+        <iframe width="100%" height="700px" src="https://xd.adobe.com/embed/51764c55-1179-4548-8bef-15c9c5eea123-0425/?fullscreen" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="small-grid-container">
+        <section class="prev-next-buttons">
+                <article class="btn-nextprev btn-prev" onclick="connorProject()">
+                    <p class="nextprev-title">Previous project</p>
+                   <p class="nextprev-sm-title">Connor Fernandez - Musician portfolio</p>                     
+                </article>
+                <article class="btn-nextprev btn-next" onclick="gjolProject()">
+                    <p class="nextprev-title">Next project</p>
+                   <p class="nextprev-sm-title">Gjol Kro - Restaurant website</p>                     
+                </article>
+            </section>
+    </div>
+    
+    <div class="small-grid-container">
+        <section class="contact-me">
+        
+            <h3 class="contact-title">Are you interested in working on a project together
+                or see more from me?
+            </h3>
+            <p class="contact-text">Get in touch with me through <a href="mailto: burkevics242@gmail.com" class="c-email">Email</a>, 
+                connect with me on <a href="https://www.linkedin.com/in/reinis-burkevics-305960168/" class="c-linkedin" target="_blank">Linkedin</a>, or check out my
+                social media - <a href="https://www.instagram.com/reinissb/" class="c-instagram" target="_blank">Instagram</a>, 
+                <a href="https://dribbble.com/ReinissB" class="c-dribbble" target="_blank">Dribbble</a>, <a href="https://www.behance.net/reinissb" class="c-behance" target="_blank">Behance</a>
+            </p>
+        </section>
+    </div>
+    <div class="grid-container">
+        <footer>
+            <article class="logo">
+                Rb<span class="logo-dot">.</span>
+            </article>
+            <article class="right-side">
+                <nav class="main-nav-links">
+                    <ul>
+                        <li><a href="../index.html">My work</a></li>
+                        <li><a href="../aboutme/aboutme.html">Get to know me</a></li>
+                        <li><a href="../assets/pdf/reinis_burkevics_cv.pdf" class="ic-resume" target="_blank">My resume</a></li>
+                    </ul>
+                </nav>
+                <article class="footer-social-icons">
+                    <a href="https://instagram.com/ReinissB" class="instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-instagram" d="M14,10.4A3.6,3.6,0,1,0,17.6,14,3.6,3.6,0,0,0,14,10.4ZM14,8a6,6,0,1,1-6,6A6,6,0,0,1,14,8Zm7.8-.3a1.5,1.5,0,1,1-1.5-1.5A1.5,1.5,0,0,1,21.8,7.7ZM14,4.4c-2.969,0-3.454.008-4.835.07a6.519,6.519,0,0,0-2.158.4,3.464,3.464,0,0,0-1.3.844,3.468,3.468,0,0,0-.845,1.3,6.51,6.51,0,0,0-.4,2.158C4.407,10.49,4.4,10.953,4.4,14c0,2.969.008,3.454.07,4.835a6.545,6.545,0,0,0,.4,2.156,3.731,3.731,0,0,0,2.138,2.14,6.533,6.533,0,0,0,2.16.4c1.325.062,1.788.07,4.835.07,2.969,0,3.454-.008,4.835-.07a6.558,6.558,0,0,0,2.156-.4,3.505,3.505,0,0,0,1.3-.842,3.47,3.47,0,0,0,.845-1.3,6.56,6.56,0,0,0,.4-2.16c.062-1.325.07-1.788.07-4.835,0-2.969-.008-3.454-.07-4.835a6.532,6.532,0,0,0-.4-2.158,3.493,3.493,0,0,0-.844-1.3,3.461,3.461,0,0,0-1.3-.845,6.516,6.516,0,0,0-2.158-.4C17.51,4.407,17.047,4.4,14,4.4ZM14,2c3.26,0,3.667.012,4.946.072a8.84,8.84,0,0,1,2.914.558,5.851,5.851,0,0,1,2.126,1.384A5.89,5.89,0,0,1,25.37,6.14a8.865,8.865,0,0,1,.558,2.914C25.984,10.333,26,10.74,26,14s-.012,3.667-.072,4.946a8.871,8.871,0,0,1-.558,2.914,6.127,6.127,0,0,1-3.51,3.51,8.865,8.865,0,0,1-2.914.558C17.667,25.984,17.26,26,14,26s-3.667-.012-4.946-.072A8.871,8.871,0,0,1,6.14,25.37a6.127,6.127,0,0,1-3.51-3.51,8.834,8.834,0,0,1-.558-2.914C2.016,17.667,2,17.26,2,14s.012-3.667.072-4.946A8.834,8.834,0,0,1,2.63,6.14,5.856,5.856,0,0,1,4.014,4.014,5.876,5.876,0,0,1,6.14,2.63a8.834,8.834,0,0,1,2.914-.558C10.333,2.016,10.74,2,14,2Z" transform="translate(-2 -2)"/>
+                            <defs>
+                                <linearGradient id="instagradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                  <stop offset="0%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="5%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="45%" style="stop-color:#fd5949;stop-opacity:1" />
+                                  <stop offset="60%" style="stop-color:#d6249f;stop-opacity:1" />
+                                  <stop offset="90%" style="stop-color:#285AEB;stop-opacity:1" />
+                                </linearGradient>
+                              </defs>
+                        </svg>   
+                    </a>
+                    <a href="https://www.linkedin.com/in/reinis-burkevics-305960168/" class="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                            <path id="svg-linkedin" d="M4.222,3H23.778A1.222,1.222,0,0,1,25,4.222V23.778A1.222,1.222,0,0,1,23.778,25H4.222A1.222,1.222,0,0,1,3,23.778V4.222A1.222,1.222,0,0,1,4.222,3ZM5.444,5.444V22.556H22.556V5.444ZM8.5,10.333A1.833,1.833,0,1,1,10.333,8.5,1.833,1.833,0,0,1,8.5,10.333ZM7.278,11.556H9.722v9.167H7.278ZM14,12.081a3.572,3.572,0,0,1,2.444-1.137,4.333,4.333,0,0,1,4.278,4.583v5.194H18.278V15.528a2.139,2.139,0,0,0-4.278,0v5.194H11.556V11.556H14Z" transform="translate(-3 -3)"/>
+                        </svg>  
+                     </a>
+                     <a href="https://dribbble.com/ReinissB" class="dribbble">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-dribbble" d="M23.587,13.486A9.552,9.552,0,0,0,21.7,8.265a11.7,11.7,0,0,1-1.1,1.044,15.788,15.788,0,0,1-3.976,2.412c.2.42.384.827.546,1.211v0q.069.161.132.324a23.033,23.033,0,0,1,5.588.121c.247.034.48.07.7.106ZM12.325,4.546a55.4,55.4,0,0,1,3.23,5.124,13.327,13.327,0,0,0,3.658-2.12,9.456,9.456,0,0,0,.955-.906A9.562,9.562,0,0,0,14,4.4a9.66,9.66,0,0,0-1.675.145ZM4.7,11.6q1.226-.031,2.448-.148a37.837,37.837,0,0,0,5.834-.986q-1.5-2.61-3.24-5.072A9.622,9.622,0,0,0,4.7,11.6ZM6.54,20.042a17.128,17.128,0,0,1,1.89-2.279,15.148,15.148,0,0,1,6.187-3.948l.074-.022c-.2-.437-.384-.827-.571-1.194a36.1,36.1,0,0,1-6.836,1.25c-1.128.1-2.14.146-2.884.154a9.56,9.56,0,0,0,2.141,6.038ZM17.606,22.9a43.136,43.136,0,0,0-1.958-6.851,15.215,15.215,0,0,0-5.8,3.67A11.724,11.724,0,0,0,8.271,21.7a9.615,9.615,0,0,0,9.335,1.2Zm2.248-1.29a9.6,9.6,0,0,0,3.584-5.844,14.648,14.648,0,0,0-1.494-.283,14.428,14.428,0,0,0-3.816-.04,47.241,47.241,0,0,1,1.726,6.168ZM14,26A12,12,0,1,1,26,14,12,12,0,0,1,14,26Z" transform="translate(-2 -2)"/>
+                        </svg>                       
+                     </a>
+                     <a href="https://www.behance.net/reinissb" class="behance">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18.493" viewBox="0 0 26 18.493">
+                            <path id="svg-behance" d="M8.682,12.656A2.463,2.463,0,0,0,11.045,10.1,2.463,2.463,0,0,0,8.682,7.552H3.364v5.1Zm1.182,2.552h-6.5v5.1h6.5a2.463,2.463,0,0,0,2.364-2.552A2.463,2.463,0,0,0,9.864,15.208ZM12.3,13.386a5.291,5.291,0,0,1,2.119,5.74,4.8,4.8,0,0,1-4.557,3.738H1V5H8.682a4.717,4.717,0,0,1,4.284,2.947A5.431,5.431,0,0,1,12.3,13.386Zm5.835-7.11h6.5V8.19h-6.5ZM27,17.122H18.136v.319a3.467,3.467,0,0,0,2.49,3.413,3.175,3.175,0,0,0,3.655-1.818H26.8a5.637,5.637,0,0,1-6.161,4.4,5.928,5.928,0,0,1-4.871-6V15.527a5.85,5.85,0,0,1,5.614-6.061A5.85,5.85,0,0,1,27,15.527v1.595ZM24.513,14.57a3.192,3.192,0,0,0-6.254,0Z" transform="translate(-1 -5)"/>
+                        </svg> 
+                     </a>
+                </article>
+                <div class="back-to-top">
+                    <button class="btn-top" type="submit" onclick="backToTop()">
+                        <svg id="svg-top" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="Path_11" data-name="Path 11" d="M0,24H24V0H0Z" fill="none"/>
+                            <path id="Path_12" data-name="Path 12" d="M13,7.828l5.364,5.364,1.414-1.414L12,4,4.222,11.778l1.414,1.414L11,7.828V20h2Z" fill="#eaeaf3"/>
+                        </svg>                      
+                    </button>
+                </div> 
+            </article>
+            
+        </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project case - Connor Fernandez</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/svg/favicon.svg">
+     <!-- Styles -->
+    <link href="../assets/styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../assets/styles/projects.css" rel="stylesheet" type="text/css">
+    <!-- Onscroll animation library by https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- JavaScript -->
+     <script src="../assets/js/script.js" defer></script>
+    <!-- Onscroll animation library by https://michalsnik.github.io/aos/ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <div class="grid-container">
+        <header>
+            <section class="main-nav" data-aos="fade-down" data-aos-duration="600">
+                <article class="logo" onclick="logoHome()">
+                    <p>Rb</p><span class="logo-dot">.</span>
+                </article>
+                <nav class="main-nav-links">
+                    <ul>
+                        <li><a href="../index.html" class="nav-active">My work</a></li>
+                        <li><a href="../aboutme/aboutme.html">Get to know me</a></li>
+                        <li><a href="../assets/pdf/reinis_burkevics_cv.pdf" target="_blank" class="ic-resume">My resume</a></li>
+                    </ul>
+                </nav>
+                <section class="social-icons">
+                    <a href="https://instagram.com/ReinissB" class="instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-instagram" d="M14,10.4A3.6,3.6,0,1,0,17.6,14,3.6,3.6,0,0,0,14,10.4ZM14,8a6,6,0,1,1-6,6A6,6,0,0,1,14,8Zm7.8-.3a1.5,1.5,0,1,1-1.5-1.5A1.5,1.5,0,0,1,21.8,7.7ZM14,4.4c-2.969,0-3.454.008-4.835.07a6.519,6.519,0,0,0-2.158.4,3.464,3.464,0,0,0-1.3.844,3.468,3.468,0,0,0-.845,1.3,6.51,6.51,0,0,0-.4,2.158C4.407,10.49,4.4,10.953,4.4,14c0,2.969.008,3.454.07,4.835a6.545,6.545,0,0,0,.4,2.156,3.731,3.731,0,0,0,2.138,2.14,6.533,6.533,0,0,0,2.16.4c1.325.062,1.788.07,4.835.07,2.969,0,3.454-.008,4.835-.07a6.558,6.558,0,0,0,2.156-.4,3.505,3.505,0,0,0,1.3-.842,3.47,3.47,0,0,0,.845-1.3,6.56,6.56,0,0,0,.4-2.16c.062-1.325.07-1.788.07-4.835,0-2.969-.008-3.454-.07-4.835a6.532,6.532,0,0,0-.4-2.158,3.493,3.493,0,0,0-.844-1.3,3.461,3.461,0,0,0-1.3-.845,6.516,6.516,0,0,0-2.158-.4C17.51,4.407,17.047,4.4,14,4.4ZM14,2c3.26,0,3.667.012,4.946.072a8.84,8.84,0,0,1,2.914.558,5.851,5.851,0,0,1,2.126,1.384A5.89,5.89,0,0,1,25.37,6.14a8.865,8.865,0,0,1,.558,2.914C25.984,10.333,26,10.74,26,14s-.012,3.667-.072,4.946a8.871,8.871,0,0,1-.558,2.914,6.127,6.127,0,0,1-3.51,3.51,8.865,8.865,0,0,1-2.914.558C17.667,25.984,17.26,26,14,26s-3.667-.012-4.946-.072A8.871,8.871,0,0,1,6.14,25.37a6.127,6.127,0,0,1-3.51-3.51,8.834,8.834,0,0,1-.558-2.914C2.016,17.667,2,17.26,2,14s.012-3.667.072-4.946A8.834,8.834,0,0,1,2.63,6.14,5.856,5.856,0,0,1,4.014,4.014,5.876,5.876,0,0,1,6.14,2.63a8.834,8.834,0,0,1,2.914-.558C10.333,2.016,10.74,2,14,2Z" transform="translate(-2 -2)"/>
+                            <defs>
+                                <linearGradient id="instagradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                  <stop offset="0%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="5%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="45%" style="stop-color:#fd5949;stop-opacity:1" />
+                                  <stop offset="60%" style="stop-color:#d6249f;stop-opacity:1" />
+                                  <stop offset="90%" style="stop-color:#285AEB;stop-opacity:1" />
+                                </linearGradient>
+                              </defs>
+                        </svg>   
+                    </a>
+                    <a href="https://www.linkedin.com/in/reinis-burkevics-305960168/" class="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                            <path id="svg-linkedin" d="M4.222,3H23.778A1.222,1.222,0,0,1,25,4.222V23.778A1.222,1.222,0,0,1,23.778,25H4.222A1.222,1.222,0,0,1,3,23.778V4.222A1.222,1.222,0,0,1,4.222,3ZM5.444,5.444V22.556H22.556V5.444ZM8.5,10.333A1.833,1.833,0,1,1,10.333,8.5,1.833,1.833,0,0,1,8.5,10.333ZM7.278,11.556H9.722v9.167H7.278ZM14,12.081a3.572,3.572,0,0,1,2.444-1.137,4.333,4.333,0,0,1,4.278,4.583v5.194H18.278V15.528a2.139,2.139,0,0,0-4.278,0v5.194H11.556V11.556H14Z" transform="translate(-3 -3)"/>
+                        </svg>  
+                     </a>
+                     <a href="https://dribbble.com/ReinissB" class="dribbble">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-dribbble" d="M23.587,13.486A9.552,9.552,0,0,0,21.7,8.265a11.7,11.7,0,0,1-1.1,1.044,15.788,15.788,0,0,1-3.976,2.412c.2.42.384.827.546,1.211v0q.069.161.132.324a23.033,23.033,0,0,1,5.588.121c.247.034.48.07.7.106ZM12.325,4.546a55.4,55.4,0,0,1,3.23,5.124,13.327,13.327,0,0,0,3.658-2.12,9.456,9.456,0,0,0,.955-.906A9.562,9.562,0,0,0,14,4.4a9.66,9.66,0,0,0-1.675.145ZM4.7,11.6q1.226-.031,2.448-.148a37.837,37.837,0,0,0,5.834-.986q-1.5-2.61-3.24-5.072A9.622,9.622,0,0,0,4.7,11.6ZM6.54,20.042a17.128,17.128,0,0,1,1.89-2.279,15.148,15.148,0,0,1,6.187-3.948l.074-.022c-.2-.437-.384-.827-.571-1.194a36.1,36.1,0,0,1-6.836,1.25c-1.128.1-2.14.146-2.884.154a9.56,9.56,0,0,0,2.141,6.038ZM17.606,22.9a43.136,43.136,0,0,0-1.958-6.851,15.215,15.215,0,0,0-5.8,3.67A11.724,11.724,0,0,0,8.271,21.7a9.615,9.615,0,0,0,9.335,1.2Zm2.248-1.29a9.6,9.6,0,0,0,3.584-5.844,14.648,14.648,0,0,0-1.494-.283,14.428,14.428,0,0,0-3.816-.04,47.241,47.241,0,0,1,1.726,6.168ZM14,26A12,12,0,1,1,26,14,12,12,0,0,1,14,26Z" transform="translate(-2 -2)"/>
+                        </svg>                       
+                     </a>
+                     <a href="https://www.behance.net/reinissb" class="behance">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18.493" viewBox="0 0 26 18.493">
+                            <path id="svg-behance" d="M8.682,12.656A2.463,2.463,0,0,0,11.045,10.1,2.463,2.463,0,0,0,8.682,7.552H3.364v5.1Zm1.182,2.552h-6.5v5.1h6.5a2.463,2.463,0,0,0,2.364-2.552A2.463,2.463,0,0,0,9.864,15.208ZM12.3,13.386a5.291,5.291,0,0,1,2.119,5.74,4.8,4.8,0,0,1-4.557,3.738H1V5H8.682a4.717,4.717,0,0,1,4.284,2.947A5.431,5.431,0,0,1,12.3,13.386Zm5.835-7.11h6.5V8.19h-6.5ZM27,17.122H18.136v.319a3.467,3.467,0,0,0,2.49,3.413,3.175,3.175,0,0,0,3.655-1.818H26.8a5.637,5.637,0,0,1-6.161,4.4,5.928,5.928,0,0,1-4.871-6V15.527a5.85,5.85,0,0,1,5.614-6.061A5.85,5.85,0,0,1,27,15.527v1.595ZM24.513,14.57a3.192,3.192,0,0,0-6.254,0Z" transform="translate(-1 -5)"/>
+                        </svg> 
+                     </a>
+                </section>
+            </section>
+        </header>
+    </div>
+    <nav class="steps-nav nav-hidden">
+        <li class="problem-task"><a href="#problem-task">01. Problem & Main task</a></li>
+        <li class="project-planning"><a href="#project-planning">02. Project planning</a></li>
+        <li class="user-research"><a href="#user-research">03. User research</a></li>
+        <li class="ideations-content"><a href="#ideations-content">04. Ideations & Content</a></li>
+        <li class="low-fi-wireframes"><a href="#low-fi-wireframes">05. Sketches & Lo-Fi wireframes</a></li>
+        <li class="hi-fi-design"><a href="#hi-fi-design">06. Design & Final product</a></li>
+    </nav>
+    <div class="grid-container">
+        <divd class="project-study">
+            <article class="thumbnail">
+                <img src="../assets/img/connor-big.png" alt="Gjol Kro restaurant logo thumbnail">
+            </article>
+            <div class="small-grid-container">
+                <button onclick="history.back()" class="go-back">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24">
+                        <g id="svg-goback" transform="translate(24 24) rotate(180)">
+                          <path id="Path_52" data-name="Path 52" d="M0,0H24V24H0Z" fill="none"/>
+                          <path id="Path_53" data-name="Path 53" d="M16.172,11,10.808,5.636l1.414-1.414L20,12l-7.778,7.778-1.414-1.414L16.172,13H-6V11Z"/>
+                        </g>
+                    </svg>   
+                    Go back
+                </button>
+            <article class="introduction">
+                <article class="intro-title">
+                    <h1 class="main-project-title">
+                        Connor Fernandez - Musician portfolio
+                    </h1>
+                    <p class="p-big">
+                        Full scale project, starting from analyzing the client and
+                        finishing with website's development.
+                    </p>
+                </article>
+                <article class="project-facts">
+                    <article class="fact">
+                        <p class="fact-s-title">The client</p>
+                        <h4 class="fact-title">Connor Fernandez</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">Project duration</p>
+                        <h4 class="fact-title">Approximately 1 month</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">Project management method</p>
+                        <h4 class="fact-title">Agile</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">Technologies used</p>
+                        <h4 class="fact-title">HTML, CSS, Adobe Xd</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">My roles</p>
+                        <h4 class="fact-title">UX/UI, Front-end</h4>
+                    </article>
+                    <article class="fact fact-view-live" onclick="viewLiveConnor()">
+                       <p>View it live</p>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24">
+                        <g id="svg-view-live" transform="translate(6)">
+                          <path id="Path_52" data-name="Path 52" d="M0,0H24V24H0Z" fill="none"/>
+                          <path id="Path_53" data-name="Path 53" d="M16.172,11,10.808,5.636l1.414-1.414L20,12l-7.778,7.778-1.414-1.414L16.172,13H-6V11Z" fill="#eaeaf3"/>
+                        </g>
+                      </svg>                      
+                    </article>
+                </article>
+            </article>
+            <article class="project-step problem-task" id="problem-task">
+                <p class="step-small-title">01. Problem & Main task</p>
+                <h2 class="step-main-title">Acknowledging the problem</h2>
+                <p class="p-big step-p">
+                    Connor is a <mark class="primary-mark">singer and songwriter mainly focusing on expressing himself 
+                    through his work and passion – indie rock music.</mark> People around him and 
+                    himself perceive him as optimistic dreamer and believer in the power of nature. 
+
+                </p>
+                <p class="p-big step-p">
+                    At the moment, <mark class="primary-mark">his only way of reaching out to people and promoting himself is through 
+                    social media platforms. </mark>Although they have their advantages, they come with many limitations. 
+                </p>
+                <p class="p-big step-p">
+                    The focus of the project was to <mark class="secondary-mark">develop a website for Connor to represent himself as an 
+                    artist, advertise his albums, concerts and singles and tell his full story in a way that 
+                    inspires other people.</mark>
+                </p>
+            </article>
+            <article class="project-step project-planning" id="project-planning">
+                <p class="step-small-title">02. Project planning</p>
+                <h2 class="step-main-title">Gathering the information and planning the project</h2>
+                <h3 class="step-secondary-title">2.0. Meeting with the client</h3>
+                <p class="p-big step-p">
+                    Meeting Connor was a big step forwards for understanding him as a person and musician. 
+                    We gathered key insights that helped us further in the brainstorming session for generating 
+                    ideas on the look & feel of the website.
+                </p>
+                <h3 class="step-secondary-title">2.1. Planning the project</h3>
+                <p class="p-big step-p">
+                    In the planning stage, <mark class="primary-mark">we created two main things – work breakdown structure and to-do calendar.</mark> 
+                    This helped us to oversee deadlines for important tasks as well as the overall project process. 
+                    Our approach for the project was to <mark class="secondary-mark">assign main responsibilities for each of the members and 
+                    define overall tasks</mark> that would be done together. 
+                </p>
+                <p class="p-big step-p">
+                    Afterwards, we would meet as often as possible for the overall tasks and work independently 
+                    on the personal ones.
+                </p>
+                <img src="../assets/img/planning-schedule.png" alt="Plan schedule">
+                <img src="../assets/img/schedule-graph.jpg" alt="Plan schedule">
+            </article>
+            <article class="project-step user-research" id="user-research">
+                <p class="step-small-title">03. User research</p>
+                <h2 class="step-main-title">Analyzing the potential user</h2>
+                <h3 class="step-secondary-title">3.0. Target audience and user categorization</h3>
+                <p class="p-big step-p">
+                    Before creating the user categorization and finding the best fit target audience 
+                    for qualitative interviews, <mark class="primary-mark">we had received crucial data from the clients Spotify, 
+                    which helped us to move forward more efficiently and understand his listeners better.</mark>
+                </p>
+                <img class="bottom30px" src="../assets/img/shopify-countries.jpg" alt="Shopify data on Connors listeners by country">
+                <img class="bottom30px" src="../assets/img/shopify-age.jpg" alt="Shopify data on Connors listeners by age and gender">   
+                <p class="p-big step-p">
+                    After analyzing the data, we conducted the user categorization using Kottler’s 
+                    Marketing segmentation scheme, were we categorized users by 4 main segmentations. 
+                </p>
+                <p class="step-secondary-title">
+                    Main user categories
+                </p>
+                <article class="user-categorization">
+                    <div class="purpose">
+                        <h3 class="categorization-title">Geographics</h3>
+                        <p class="p-big">
+                            International. According to the data, most of Connors listeners
+                            are from Agentina, however, his music - in English and Spanish.
+                        </p>
+                        <h3 class="categorization-title">Demographics</h3>
+                        <p class="p-big">
+                            People between 20-40 years old, all genders, Spanish and English speaking.
+                        </p>
+                        <h3 class="categorization-title">Occasions</h3>
+                        <p class="p-big">
+                            Walking, driving a car, relaxing, doing chores.
+                        </p>
+                        <h3 class="categorization-title">Benefits</h3>
+                        <p class="p-big">
+                            Inspiration, calmness, relaxing mood, discovering new music.
+                        </p>
+                        <h3 class="categorization-title">Psychographics</h3>
+                        <p class="p-big">
+                            Self reflective, eager to discover new music, dreamer, open-minded personality.
+                            Motivated to relax, change the mood, gain new cultural experiences through music.
+                        </p>
+                    </div>
+                </article>
+                <h3 class="step-secondary-title">3.1. Interviews & analysis</h3>
+                <p class="p-big step-p">
+                    After categorizing the potential user, <mark class="primary-mark">we developed a purpose of the interviews 
+                    and research question, followed by the interview guide.</mark> After these steps, each 
+                    of the group members conducted a qualitative interview. To understand Connor 
+                    even better, <mark class="secondary-mark">we conducted a group interview with Connors closest people,</mark> which, 
+                    as expected provided us with interesting and helpful insights.
+                </p>
+                <img src="../assets/img/interview-guide.jpg" alt="User categorization">
+                <article class="takeaways">
+                    <h3 class="step-secondary-title">Main takeaways from individual interviews</h3>
+                    <article class="takeaway">
+                        <h3 class="takeaway-title">Purpose of listening</h3>
+                        <p class="p-big">
+                            Music is about emotions and feelings; lyrics and melody
+                            help people to connect with the artist.
+                        </p>
+                    </article>
+                    <article class="takeaway">
+                        <h3 class="takeaway-title">Finding artists</h3>
+                        <p class="p-big">
+                            Internet portals and social media is the most used platforms for 
+                            finding artists, concerts and music overall.
+                        </p>
+                    </article>
+                    <article class="takeaway">
+                        <h3 class="takeaway-title">Occasions</h3>
+                        <p class="p-big">
+                            People usually listen to music on the way, doing every day chores 
+                            or relaxing.
+                        </p>
+                    </article>
+                </article>
+
+                <article class="takeaways takeaways-group">
+                    <h3 class="step-secondary-title">Main takeaways from group interviews</h3>
+                    <article class="takeaway">
+                        <h3 class="takeaway-title">Connors personality</h3>
+                        <p class="p-big">
+                            Connor is passionate, enthusiastic, sensitive, determined, chill, 
+                            talkative and curious person. People closest to him relate him to 
+                            nature and sun in particular.
+                        </p>
+                    </article>
+                    <article class="takeaway">
+                        <h3 class="takeaway-title">Opportunities of growth</h3>
+                        <p class="p-big">
+                            For Connor to grow, he needs to find professional connections, 
+                           which confirmed out previously formulated problem description.
+                        </p>
+                    </article>
+                </article>
+            </article>
+            <article class="project-step ideations-content" id="ideations-content">
+                <p class="step-small-title">04. Ideations & Content</p>
+                <h2 class="step-main-title">Brainstorming, Priority matrix and Sitemaps</h2>
+                <h3 class="step-secondary-title">4.0. Brainstorming session - Vicky</h3>
+                <p class="p-big step-p">
+                    As a starting point for solving the problem, <mark class="primary-mark">we went through the analyzed data 
+                    and performed brainstorming session with the use of VICKY method,</mark> generating 
+                    ideas for content.
+                </p>
+                <img src="../assets/img/vicky.jpg" alt="Vicky brainstorming">
+                <h3 class="step-secondary-title">4.1. Priority matrix</h3>
+                <p class="p-big step-p">
+                    After finishing the idea generation process, <mark class="secondary-mark">the importance of each idea and its 
+                    execution difficulty were discussed and placed in the prioritization matrix figure.</mark> 
+                    Since the number of the concepts was fairly large, we decided to eliminate some of 
+                    them, eventually color coding the cards to emphasize the selected ones.
+                </p>
+                <img class="img100pc"src="../assets/img/priority-matrix.png" alt="Priority matrix">
+
+                <h3 class="step-secondary-title">4.2. Sitemaps & Information architecture</h3>
+                <p class="p-big step-p">
+                    The next step in the overall design process was determining the whole websites IA. 
+                    The client meeting and qualitative research provided the base for the group to create.
+                    The creation of sitemap was an iterative process, in total with 2 different versions.
+                </p>
+                <img class="img100pc" src="../assets/img/sitemap-v1.png" alt="Sitemap version 1">
+                <img class="img100pc" src="../assets/img/sitemap-v2.png" alt="Sitemap version 2">
+                
+            </article>
+            <article class="project-step low-fidelity" id="low-fi-wireframes">
+                <p class="step-small-title">05. Sketches & Lo-Fi wireframes</p>
+                <h2 class="step-main-title">Multiple iterations of sketches and wireframes</h2>
+                <h3 class="step-secondary-title">5.1. Sketching process</h3>
+                <p class="p-big step-p">
+                    In the sketching stage, <mark class="primary-mark">we gathered together and in a structured way, tried to put the content 
+                    created in sitemaps, on the paper.</mark> Each of the group members drew multiple sketches, later on 
+                    discussed in the group, the better ones were selected, adjusted and sketched again, until 
+                    we came up with the final version of the sketching stage. 
+                </p>
+                <img class="bottom30px" src="../assets/img/sketches.jpg" alt="Sketches of homepage">
+                <h3 class="step-secondary-title">5.1. Low fidelity wireframes</h3>
+                <p class="p-big step-p">
+                    <mark class="secondary-mark">Based on the previously made sketches, we designed first iterations of
+                     low-fidelity design.</mark> After completing this step, to gain additional feedback, 
+                     they were shown to the client. The most problematic part was the about me page, 
+                     as Connor’s intentions were unclear at first, however, after multiple iterations 
+                     on the page, we came up with the final version of the wireframes, which allowed 
+                     us to move forwards to the high-fidelity design stage.
+                </p>
+                <img class="bottom30px" src="../assets/img/wireframes-header.png" alt="Header wireframes">
+                <img src="../assets/img/wireframes-about.png" alt="">
+                
+            </article>
+        </div>
+    </div>
+    <div class="small-grid-container">
+        <article class="project-step high-fidelity" id="hi-fi-design">
+                <p class="step-small-title">06. Design & Final product<p>
+                <h2 class="step-main-title">User tests and final design</h2>
+                <h3 class="step-secondary-title">6.1. Color palette & font family</h3>
+                <p class="p-big step-p">
+                    Based on previously gathered data from interviews, Connor himself and his closest 
+                    people, we decided to go with a <mark class="primary-mark">monochromatic and warm color palette, that in 
+                    our opinion fits his personality the best.</mark> Afterwards, we chose the font family, 
+                    that is easily readable, modern and fits well together with indie-rock style.
+                </p>
+                <img class="bottom30px" src="../assets/img/color-font.png" alt="Color palette and font family">
+                <h3 class="step-secondary-title">First iteration & user tests</h3>
+                <p class="p-big step-p">
+                    The first iteration of the high-fidelity design was made based on the initial wireframes, 
+                    applying visual hierarchy using colors, font weights and different element sizes. During 
+                    the designing, we made some minor changes for the homepage’s header, as we felt it did 
+                    not fit well together with the overall looks of the website. 
+                </p>
+                <img class="bottom30px" src="../assets/img/high-fidelity.png" alt="High fidelity design">
+                <h3 class="step-secondary-title">5 Second test</h3>
+                <p class="p-big step-p">
+                To get more thoughts and data on the first iteration of the design,<mark class="secondary-mark"> we performed 5 
+                second and think aloud tests, as well as got feedback from the client himself.</mark>
+                During the 5 second test, we asked people questions, like, what they noticed first 
+                when they entered the website or if they remember anything of what was written in 
+                the photo, as well as if they noticed specific buttons. The test showed us, that 
+                we need to take steps back and re-think some of the parts, which later on were 
+                adjusted in the version 2.
+                </p>
+                <img class="bottom30px" src="../assets/img/fivesecond.jpg" alt="Five second test results">
+                <h3 class="step-secondary-title">Think aloud test</h3>
+                <p class="p-big step-p">
+                The purpose of the think aloud test was to discover any possible faults and ensure 
+                the navigation design allows users to find the desired information within a relatively
+                short period of time. We had 4 participants and 5 tasks for each one of them. 
+                <mark class="primary-mark">The results of the user tests showed that there are no major problems in the 
+                navigation design and is easy to find information and navigate throughout the website. </mark>
+                </p>
+                <img class="bottom30px" src="../assets/img/think-aloud.png" alt="Think aloud test results">
+                <h3 class="step-secondary-title">6.2. The final design & Implementation</h3>
+                <p class="p-big step-p">
+                    Thanks to the conducting the tests and some minor changes, we ensured that the website’s 
+                    information architecture and design is clear, meeting our expectations and goals, which 
+                    lead us to finalizing the websites interface and finishing the design stage. 
+                </p>
+                <p class="p-big step-p">
+                    After the design stage was ready to be developed, we divided the coding tasks by pages and 
+                    began the development stage. The development was done using HTML, CSS and JavaScript technologies, 
+                    followed up by optimizing SEO by maintaining a good semantic structure, creating schema markup 
+                    and setting up open graph protocol.
+                </p>
+                <p class="embedd-help">You can view the final website, embedded down below.</p>
+            </article>
+    </div>
+    <div class="iframe">
+        <iframe class="final-design-embedd" height="700px" width="100%" src="https://mmd.ucn.dk/class/MDE-CSD-S21/10407761/connorfernandez/index.html" title="Connor Fernandez final product" frameborder="0"></iframe>
+    </div>
+    <div class="small-grid-container">
+        <section class="prev-next-buttons">
+                <article class="btn-nextprev btn-prev" onclick="gjolProject()">
+                    <p class="nextprev-title">Previous project</p>
+                   <p class="nextprev-sm-title">Gjol Kro restaurant website</p>                     
+                </article>
+                <article class="btn-nextprev btn-next" onclick="mentorProject()">
+                    <p class="nextprev-title">Next project</p>
+                   <p class="nextprev-sm-title">Student mentorship portal</p>                     
+                </article>
+            </section>
+    </div>
+    
+    <div class="small-grid-container">
+        <section class="contact-me">
+        
+            <h3 class="contact-title">Are you interested in working on a project together
+                or see more from me?
+            </h3>
+            <p class="contact-text">Get in touch with me through <a href="mailto: burkevics242@gmail.com" class="c-email">Email</a>, 
+                connect with me on <a href="https://www.linkedin.com/in/reinis-burkevics-305960168/" class="c-linkedin" target="_blank">Linkedin</a>, or check out my
+                social media - <a href="https://www.instagram.com/reinissb/" class="c-instagram" target="_blank">Instagram</a>, 
+                <a href="https://dribbble.com/ReinissB" class="c-dribbble" target="_blank">Dribbble</a>, <a href="https://www.behance.net/reinissb" class="c-behance" target="_blank">Behance</a>
+            </p>
+        </section>
+    </div>
+    <div class="grid-container">
+        <footer>
+            <article class="logo">
+                Rb<span class="logo-dot">.</span>
+            </article>
+            <article class="right-side">
+                <nav class="main-nav-links">
+                    <ul>
+                        <li><a href="../index.html">My work</a></li>
+                        <li><a href="../aboutme/aboutme.html">Get to know me</a></li>
+                        <li><a href="../assets/pdf/reinis_burkevics_cv.pdf" class="ic-resume" target="_blank">My resume</a></li>
+                    </ul>
+                </nav>
+                <article class="footer-social-icons">
+                    <a href="https://instagram.com/ReinissB" class="instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-instagram" d="M14,10.4A3.6,3.6,0,1,0,17.6,14,3.6,3.6,0,0,0,14,10.4ZM14,8a6,6,0,1,1-6,6A6,6,0,0,1,14,8Zm7.8-.3a1.5,1.5,0,1,1-1.5-1.5A1.5,1.5,0,0,1,21.8,7.7ZM14,4.4c-2.969,0-3.454.008-4.835.07a6.519,6.519,0,0,0-2.158.4,3.464,3.464,0,0,0-1.3.844,3.468,3.468,0,0,0-.845,1.3,6.51,6.51,0,0,0-.4,2.158C4.407,10.49,4.4,10.953,4.4,14c0,2.969.008,3.454.07,4.835a6.545,6.545,0,0,0,.4,2.156,3.731,3.731,0,0,0,2.138,2.14,6.533,6.533,0,0,0,2.16.4c1.325.062,1.788.07,4.835.07,2.969,0,3.454-.008,4.835-.07a6.558,6.558,0,0,0,2.156-.4,3.505,3.505,0,0,0,1.3-.842,3.47,3.47,0,0,0,.845-1.3,6.56,6.56,0,0,0,.4-2.16c.062-1.325.07-1.788.07-4.835,0-2.969-.008-3.454-.07-4.835a6.532,6.532,0,0,0-.4-2.158,3.493,3.493,0,0,0-.844-1.3,3.461,3.461,0,0,0-1.3-.845,6.516,6.516,0,0,0-2.158-.4C17.51,4.407,17.047,4.4,14,4.4ZM14,2c3.26,0,3.667.012,4.946.072a8.84,8.84,0,0,1,2.914.558,5.851,5.851,0,0,1,2.126,1.384A5.89,5.89,0,0,1,25.37,6.14a8.865,8.865,0,0,1,.558,2.914C25.984,10.333,26,10.74,26,14s-.012,3.667-.072,4.946a8.871,8.871,0,0,1-.558,2.914,6.127,6.127,0,0,1-3.51,3.51,8.865,8.865,0,0,1-2.914.558C17.667,25.984,17.26,26,14,26s-3.667-.012-4.946-.072A8.871,8.871,0,0,1,6.14,25.37a6.127,6.127,0,0,1-3.51-3.51,8.834,8.834,0,0,1-.558-2.914C2.016,17.667,2,17.26,2,14s.012-3.667.072-4.946A8.834,8.834,0,0,1,2.63,6.14,5.856,5.856,0,0,1,4.014,4.014,5.876,5.876,0,0,1,6.14,2.63a8.834,8.834,0,0,1,2.914-.558C10.333,2.016,10.74,2,14,2Z" transform="translate(-2 -2)"/>
+                            <defs>
+                                <linearGradient id="instagradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                  <stop offset="0%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="5%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="45%" style="stop-color:#fd5949;stop-opacity:1" />
+                                  <stop offset="60%" style="stop-color:#d6249f;stop-opacity:1" />
+                                  <stop offset="90%" style="stop-color:#285AEB;stop-opacity:1" />
+                                </linearGradient>
+                              </defs>
+                        </svg>   
+                    </a>
+                    <a href="https://www.linkedin.com/in/reinis-burkevics-305960168/" class="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                            <path id="svg-linkedin" d="M4.222,3H23.778A1.222,1.222,0,0,1,25,4.222V23.778A1.222,1.222,0,0,1,23.778,25H4.222A1.222,1.222,0,0,1,3,23.778V4.222A1.222,1.222,0,0,1,4.222,3ZM5.444,5.444V22.556H22.556V5.444ZM8.5,10.333A1.833,1.833,0,1,1,10.333,8.5,1.833,1.833,0,0,1,8.5,10.333ZM7.278,11.556H9.722v9.167H7.278ZM14,12.081a3.572,3.572,0,0,1,2.444-1.137,4.333,4.333,0,0,1,4.278,4.583v5.194H18.278V15.528a2.139,2.139,0,0,0-4.278,0v5.194H11.556V11.556H14Z" transform="translate(-3 -3)"/>
+                        </svg>  
+                     </a>
+                     <a href="https://dribbble.com/ReinissB" class="dribbble">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-dribbble" d="M23.587,13.486A9.552,9.552,0,0,0,21.7,8.265a11.7,11.7,0,0,1-1.1,1.044,15.788,15.788,0,0,1-3.976,2.412c.2.42.384.827.546,1.211v0q.069.161.132.324a23.033,23.033,0,0,1,5.588.121c.247.034.48.07.7.106ZM12.325,4.546a55.4,55.4,0,0,1,3.23,5.124,13.327,13.327,0,0,0,3.658-2.12,9.456,9.456,0,0,0,.955-.906A9.562,9.562,0,0,0,14,4.4a9.66,9.66,0,0,0-1.675.145ZM4.7,11.6q1.226-.031,2.448-.148a37.837,37.837,0,0,0,5.834-.986q-1.5-2.61-3.24-5.072A9.622,9.622,0,0,0,4.7,11.6ZM6.54,20.042a17.128,17.128,0,0,1,1.89-2.279,15.148,15.148,0,0,1,6.187-3.948l.074-.022c-.2-.437-.384-.827-.571-1.194a36.1,36.1,0,0,1-6.836,1.25c-1.128.1-2.14.146-2.884.154a9.56,9.56,0,0,0,2.141,6.038ZM17.606,22.9a43.136,43.136,0,0,0-1.958-6.851,15.215,15.215,0,0,0-5.8,3.67A11.724,11.724,0,0,0,8.271,21.7a9.615,9.615,0,0,0,9.335,1.2Zm2.248-1.29a9.6,9.6,0,0,0,3.584-5.844,14.648,14.648,0,0,0-1.494-.283,14.428,14.428,0,0,0-3.816-.04,47.241,47.241,0,0,1,1.726,6.168ZM14,26A12,12,0,1,1,26,14,12,12,0,0,1,14,26Z" transform="translate(-2 -2)"/>
+                        </svg>                       
+                     </a>
+                     <a href="https://www.behance.net/reinissb" class="behance">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18.493" viewBox="0 0 26 18.493">
+                            <path id="svg-behance" d="M8.682,12.656A2.463,2.463,0,0,0,11.045,10.1,2.463,2.463,0,0,0,8.682,7.552H3.364v5.1Zm1.182,2.552h-6.5v5.1h6.5a2.463,2.463,0,0,0,2.364-2.552A2.463,2.463,0,0,0,9.864,15.208ZM12.3,13.386a5.291,5.291,0,0,1,2.119,5.74,4.8,4.8,0,0,1-4.557,3.738H1V5H8.682a4.717,4.717,0,0,1,4.284,2.947A5.431,5.431,0,0,1,12.3,13.386Zm5.835-7.11h6.5V8.19h-6.5ZM27,17.122H18.136v.319a3.467,3.467,0,0,0,2.49,3.413,3.175,3.175,0,0,0,3.655-1.818H26.8a5.637,5.637,0,0,1-6.161,4.4,5.928,5.928,0,0,1-4.871-6V15.527a5.85,5.85,0,0,1,5.614-6.061A5.85,5.85,0,0,1,27,15.527v1.595ZM24.513,14.57a3.192,3.192,0,0,0-6.254,0Z" transform="translate(-1 -5)"/>
+                        </svg> 
+                     </a>
+                </article>
+                <div class="back-to-top">
+                    <button class="btn-top" type="submit" onclick="backToTop()">
+                        <svg id="svg-top" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="Path_11" data-name="Path 11" d="M0,24H24V0H0Z" fill="none"/>
+                            <path id="Path_12" data-name="Path 12" d="M13,7.828l5.364,5.364,1.414-1.414L12,4,4.222,11.778l1.414,1.414L11,7.828V20h2Z" fill="#eaeaf3"/>
+                        </svg>                      
+                    </button>
+                </div> 
+            </article>
+            
+        </footer>
+    </div>
+
+</body>
+</html>

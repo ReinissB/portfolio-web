@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project case - Gjol Kro</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/svg/favicon.svg">
+     <!-- Styles -->
+    <link href="../assets/styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../assets/styles/projects.css" rel="stylesheet" type="text/css">
+    <!-- Onscroll animation library by https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- JavaScript -->
+     <script src="../assets/js/script.js" defer></script>
+    <!-- Onscroll animation library by https://michalsnik.github.io/aos/ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <div class="grid-container">
+        <header>
+            <section class="main-nav" data-aos="fade-down" data-aos-duration="600">
+                <article class="logo" onclick="logoHome()">
+                    <p>Rb</p><span class="logo-dot">.</span>
+                </article>
+                <nav class="main-nav-links">
+                    <ul>
+                        <li><a href="./index.html" class="nav-active">My work</a></li>
+                        <li><a href="./aboutme/aboutme.html">Get to know me</a></li>
+                        <li><a href="./assets/pdf/reinis_burkevics_cv.pdf" target="_blank" class="ic-resume">My resume</a></li>
+                    </ul>
+                </nav>
+                <section class="social-icons">
+                    <a href="https://instagram.com/ReinissB" class="instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-instagram" d="M14,10.4A3.6,3.6,0,1,0,17.6,14,3.6,3.6,0,0,0,14,10.4ZM14,8a6,6,0,1,1-6,6A6,6,0,0,1,14,8Zm7.8-.3a1.5,1.5,0,1,1-1.5-1.5A1.5,1.5,0,0,1,21.8,7.7ZM14,4.4c-2.969,0-3.454.008-4.835.07a6.519,6.519,0,0,0-2.158.4,3.464,3.464,0,0,0-1.3.844,3.468,3.468,0,0,0-.845,1.3,6.51,6.51,0,0,0-.4,2.158C4.407,10.49,4.4,10.953,4.4,14c0,2.969.008,3.454.07,4.835a6.545,6.545,0,0,0,.4,2.156,3.731,3.731,0,0,0,2.138,2.14,6.533,6.533,0,0,0,2.16.4c1.325.062,1.788.07,4.835.07,2.969,0,3.454-.008,4.835-.07a6.558,6.558,0,0,0,2.156-.4,3.505,3.505,0,0,0,1.3-.842,3.47,3.47,0,0,0,.845-1.3,6.56,6.56,0,0,0,.4-2.16c.062-1.325.07-1.788.07-4.835,0-2.969-.008-3.454-.07-4.835a6.532,6.532,0,0,0-.4-2.158,3.493,3.493,0,0,0-.844-1.3,3.461,3.461,0,0,0-1.3-.845,6.516,6.516,0,0,0-2.158-.4C17.51,4.407,17.047,4.4,14,4.4ZM14,2c3.26,0,3.667.012,4.946.072a8.84,8.84,0,0,1,2.914.558,5.851,5.851,0,0,1,2.126,1.384A5.89,5.89,0,0,1,25.37,6.14a8.865,8.865,0,0,1,.558,2.914C25.984,10.333,26,10.74,26,14s-.012,3.667-.072,4.946a8.871,8.871,0,0,1-.558,2.914,6.127,6.127,0,0,1-3.51,3.51,8.865,8.865,0,0,1-2.914.558C17.667,25.984,17.26,26,14,26s-3.667-.012-4.946-.072A8.871,8.871,0,0,1,6.14,25.37a6.127,6.127,0,0,1-3.51-3.51,8.834,8.834,0,0,1-.558-2.914C2.016,17.667,2,17.26,2,14s.012-3.667.072-4.946A8.834,8.834,0,0,1,2.63,6.14,5.856,5.856,0,0,1,4.014,4.014,5.876,5.876,0,0,1,6.14,2.63a8.834,8.834,0,0,1,2.914-.558C10.333,2.016,10.74,2,14,2Z" transform="translate(-2 -2)"/>
+                            <defs>
+                                <linearGradient id="instagradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                  <stop offset="0%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="5%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="45%" style="stop-color:#fd5949;stop-opacity:1" />
+                                  <stop offset="60%" style="stop-color:#d6249f;stop-opacity:1" />
+                                  <stop offset="90%" style="stop-color:#285AEB;stop-opacity:1" />
+                                </linearGradient>
+                              </defs>
+                        </svg>   
+                    </a>
+                    <a href="https://www.linkedin.com/in/reinis-burkevics-305960168/" class="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                            <path id="svg-linkedin" d="M4.222,3H23.778A1.222,1.222,0,0,1,25,4.222V23.778A1.222,1.222,0,0,1,23.778,25H4.222A1.222,1.222,0,0,1,3,23.778V4.222A1.222,1.222,0,0,1,4.222,3ZM5.444,5.444V22.556H22.556V5.444ZM8.5,10.333A1.833,1.833,0,1,1,10.333,8.5,1.833,1.833,0,0,1,8.5,10.333ZM7.278,11.556H9.722v9.167H7.278ZM14,12.081a3.572,3.572,0,0,1,2.444-1.137,4.333,4.333,0,0,1,4.278,4.583v5.194H18.278V15.528a2.139,2.139,0,0,0-4.278,0v5.194H11.556V11.556H14Z" transform="translate(-3 -3)"/>
+                        </svg>  
+                     </a>
+                     <a href="https://dribbble.com/ReinissB" class="dribbble">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-dribbble" d="M23.587,13.486A9.552,9.552,0,0,0,21.7,8.265a11.7,11.7,0,0,1-1.1,1.044,15.788,15.788,0,0,1-3.976,2.412c.2.42.384.827.546,1.211v0q.069.161.132.324a23.033,23.033,0,0,1,5.588.121c.247.034.48.07.7.106ZM12.325,4.546a55.4,55.4,0,0,1,3.23,5.124,13.327,13.327,0,0,0,3.658-2.12,9.456,9.456,0,0,0,.955-.906A9.562,9.562,0,0,0,14,4.4a9.66,9.66,0,0,0-1.675.145ZM4.7,11.6q1.226-.031,2.448-.148a37.837,37.837,0,0,0,5.834-.986q-1.5-2.61-3.24-5.072A9.622,9.622,0,0,0,4.7,11.6ZM6.54,20.042a17.128,17.128,0,0,1,1.89-2.279,15.148,15.148,0,0,1,6.187-3.948l.074-.022c-.2-.437-.384-.827-.571-1.194a36.1,36.1,0,0,1-6.836,1.25c-1.128.1-2.14.146-2.884.154a9.56,9.56,0,0,0,2.141,6.038ZM17.606,22.9a43.136,43.136,0,0,0-1.958-6.851,15.215,15.215,0,0,0-5.8,3.67A11.724,11.724,0,0,0,8.271,21.7a9.615,9.615,0,0,0,9.335,1.2Zm2.248-1.29a9.6,9.6,0,0,0,3.584-5.844,14.648,14.648,0,0,0-1.494-.283,14.428,14.428,0,0,0-3.816-.04,47.241,47.241,0,0,1,1.726,6.168ZM14,26A12,12,0,1,1,26,14,12,12,0,0,1,14,26Z" transform="translate(-2 -2)"/>
+                        </svg>                       
+                     </a>
+                     <a href="https://www.behance.net/reinissb" class="behance">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18.493" viewBox="0 0 26 18.493">
+                            <path id="svg-behance" d="M8.682,12.656A2.463,2.463,0,0,0,11.045,10.1,2.463,2.463,0,0,0,8.682,7.552H3.364v5.1Zm1.182,2.552h-6.5v5.1h6.5a2.463,2.463,0,0,0,2.364-2.552A2.463,2.463,0,0,0,9.864,15.208ZM12.3,13.386a5.291,5.291,0,0,1,2.119,5.74,4.8,4.8,0,0,1-4.557,3.738H1V5H8.682a4.717,4.717,0,0,1,4.284,2.947A5.431,5.431,0,0,1,12.3,13.386Zm5.835-7.11h6.5V8.19h-6.5ZM27,17.122H18.136v.319a3.467,3.467,0,0,0,2.49,3.413,3.175,3.175,0,0,0,3.655-1.818H26.8a5.637,5.637,0,0,1-6.161,4.4,5.928,5.928,0,0,1-4.871-6V15.527a5.85,5.85,0,0,1,5.614-6.061A5.85,5.85,0,0,1,27,15.527v1.595ZM24.513,14.57a3.192,3.192,0,0,0-6.254,0Z" transform="translate(-1 -5)"/>
+                        </svg> 
+                     </a>
+                </section>
+            </section>
+        </header>
+    </div>
+    <nav class="steps-nav nav-hidden">
+        <li class="problem-task"><a href="#problem-task">01. Problem & Main task</a></li>
+        <li class="project-planning"><a href="#project-planning">02. Project planning</a></li>
+        <li class="user-research"><a href="#user-research">03. User research</a></li>
+        <li class="ideations-content"><a href="#ideations-content">04. Ideations & Content</a></li>
+        <li class="low-fi-wireframes"><a href="#low-fi-wireframes">05. Low-fidelity wireframes</a></li>
+        <li class="hi-fi-design"><a href="#hi-fi-design">06. High-fidelity design</a></li>
+    </nav>
+    <div class="grid-container">
+        <divd class="project-study">
+            <article class="thumbnail">
+                <img src="../assets/img/gjol-kro-big.png" alt="Gjol Kro restaurant logo thumbnail">
+            </article>
+            <div class="small-grid-container">
+                <button onclick="history.back()" class="go-back">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24">
+                        <g id="svg-goback" transform="translate(24 24) rotate(180)">
+                          <path id="Path_52" data-name="Path 52" d="M0,0H24V24H0Z" fill="none"/>
+                          <path id="Path_53" data-name="Path 53" d="M16.172,11,10.808,5.636l1.414-1.414L20,12l-7.778,7.778-1.414-1.414L16.172,13H-6V11Z"/>
+                        </g>
+                    </svg>   
+                    Go back
+                </button>
+            <article class="introduction">
+                <article class="intro-title">
+                    <h1 class="main-project-title">
+                        Restaurant website development - Gjol Kro
+                    </h1>
+                    <p class="p-big">
+                        Full scale project, starting from analyzing the client and
+                        finishing with website's development.
+                    </p>
+                </article>
+                <article class="project-facts">
+                    <article class="fact">
+                        <p class="fact-s-title">The client</p>
+                        <h4 class="fact-title">Gjol Kro Restaurant</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">Project duration</p>
+                        <h4 class="fact-title">Approximately 1 month</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">Project management method</p>
+                        <h4 class="fact-title">Agile</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">Technologies used</p>
+                        <h4 class="fact-title">HTML, CSS, Adobe Xd</h4>
+                    </article>
+                    <article class="fact">
+                        <p class="fact-s-title">My roles</p>
+                        <h4 class="fact-title">UX/UI, Front-end</h4>
+                    </article>
+                    <article class="fact fact-view-live" onclick="viewLiveGjol()">
+                       <p>View it live</p>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24">
+                        <g id="svg-view-live" transform="translate(6)">
+                          <path id="Path_52" data-name="Path 52" d="M0,0H24V24H0Z" fill="none"/>
+                          <path id="Path_53" data-name="Path 53" d="M16.172,11,10.808,5.636l1.414-1.414L20,12l-7.778,7.778-1.414-1.414L16.172,13H-6V11Z" fill="#eaeaf3"/>
+                        </g>
+                      </svg>                      
+                    </article>
+                </article>
+            </article>
+            <article class="project-step problem-task" id="problem-task">
+                <p class="step-small-title">01. Problem & Main task</p>
+                <h2 class="step-main-title">Acknowledging the problem</h2>
+                <p class="p-big step-p">
+                    Gjol Kro connects with its customers via the restaurant's Facebook
+                    page and didn't have a website. <mark class="primary-mark">This tool didn't offer enough freedom
+                    for Gjol Kro to present themselves properly</mark> which creates a dissonance 
+                    in the way that the restaurant wants and is presented, <mark class="secondary-mark">impacting the content and visual </mark><mark class="secondary-mark">representation.</mark>
+
+                </p>
+                <p class="p-big step-p">
+                    The main task was to develop a digital presence for the restaurant that
+                    allows them to represent themselves both visually and aesthetically,
+                    allowing people to get a glance at the restaurant, find their opening times,
+                    and being able to contact them before going to the actual restaurant.
+                </p>
+            </article>
+            <article class="project-step project-planning" id="project-planning">
+                <p class="step-small-title">02. Project planning</p>
+                <h2 class="step-main-title">Gathering the information and planning the project</h2>
+                <h3 class="step-secondary-title">2.0. Client meeting and client brief</h3>
+                <p class="p-big step-p">
+                    We started off by meeting with the client and analyzing the client brief, 
+                    which gave us a good perspective on what the client's needs are, as well 
+                    as how the user research should be made and in what way the project could 
+                    be made.
+                </p>
+                <h3 class="step-secondary-title">2.1. Project management</h3>
+                <p class="p-big step-p">
+                    Before starting to work on the project we made a schedule for group 
+                    meetings and developed a Gantt chart which helped us to plan things 
+                    ahead and keep up with the work. <mark class="primary-mark">We chose to work agile as it seemed like the best fit for the group and the ability to take steps back 
+                    and forth.</mark>
+                </p>
+                <p class="important-info">
+                    During the work we encountered a problem - a group member having to leave the 
+                    project. Assessing responsibilities and working agile helped us to keep 
+                    moving with the project and finish it as intended in the beginning.
+                </p>
+                <img src="../assets/img/management.png" alt="Project management scheme">
+            </article>
+            <article class="project-step user-research" id="user-research">
+                <p class="step-small-title">03. User research</p>
+                <h2 class="step-main-title">Analyzing the potential user</h2>
+                <h3 class="step-secondary-title">3.0. Target audience and user categorization</h3>
+                <p class="p-big step-p">
+                    To prepare for the interviews and find the target audience, <mark class="primary-mark">we created a user 
+                    categorization based on the client brief.</mark> The user categorization tactic used 
+                    in the project was based on Kottler's Marketing segmentation scheme, where 
+                    <mark class="secondary-mark">users are categorized by 4 main segmentations.</mark>
+                </p>
+                <div class="double-img-flex">
+                    <img src="../assets/img/categorization1.png" alt="User categorization">
+                    <img src="../assets/img/categorization2.png" alt="User categorization">   
+                </div>
+                <p class="p-big step-p">
+                    This user categorization method was used to find the most fitting people 
+                    to take part in the research process. Furthermore, our goal was to have 
+                    a clear definition of the requirements and non-essentials of the website 
+                    and its architecture.
+                </p>
+                <h3 class="step-secondary-title">3.1. Interviews and analysis</h3>
+                <p class="p-big step-p">
+                    After user categorization, we established a set of questions for the 
+                    interviews that served as an interview guide.
+                </p>
+                <article class="user-categorization">
+                    <div class="purpose">
+                        <h3 class="categorization-title">Purpose of the interview</h3>
+                        <p class="p-big">
+                            To <mark class="primary-mark">To gain insight that will help to 
+                            develop a relevant informationarchitecture</mark> and create 
+                            content for the project case
+                        </p>  
+                        <h3 class="categorization-title">Research question</h3>
+                        <p class="p-big">
+                            What services and qualities attract customers when choosing a restaurant?
+                        </p> 
+                    </div>
+                </article>
+                <img src="../assets/img/interview-guide.png" alt="Interview guide" class="interview-guide">
+                <p class="p-big step-p">
+                    After analyzing the user interviews, we had 3 main takeaways on the information 
+                    architecture as well as user interface elements. 
+                </p>
+
+                <article class="takeaways">
+                    <article class="takeaway">
+                        <h3 class="takeaway-title">Takeaway Nr.1</h3>
+                        <p class="p-big">
+                            Picture material and design which provides the "persona"
+                            with restaurant, personal and food identity
+                        </p>
+                    </article>
+                    <article class="takeaway">
+                        <h3 class="takeaway-title">Takeaway Nr.2</h3>
+                        <p class="p-big">
+                            Testimonials and reviews give a better understanding
+                            of the quality that the restaurant provides
+                        </p>
+                    </article>
+                    <article class="takeaway">
+                        <h3 class="takeaway-title">Takeaway Nr.3</h3>
+                        <p class="p-big">
+                            "Call us" section integration in the interface, as 
+                            people feel the most confident getting a table by calling
+                            the restaurant
+                        </p>
+                    </article>
+                </article>
+                <h3 class="step-secondary-title">3.2. Content inventory</h3>
+                <p class="p-big step-p">
+                    After getting to know the client and analyzing the information gained 
+                    through qualitative user research <mark class="primary-mark">we made a content inventory getting 
+                    rid of unnecessary content that already existed and </mark><mark class="primary-mark">creating new that 
+                    communicated well</mark> to the potential and existing clients.
+                </p>
+            </article>
+            <article class="project-step ideations-content" id="ideations-content">
+                <p class="step-small-title">04. Ideations & Content</p>
+                <h2 class="step-main-title">Brainstorming and creating Information Architecture</h2>
+                <h3 class="step-secondary-title">4.0. Brainstorming session</h3>
+                <p class="p-big step-p">
+                    After collecting qualitative data from interviews, analyzing them, and 
+                    creating content inventory, we had everything we need for starting the 
+                    ideation stage. 
+                </p>
+                <p class="p-big step-p">
+                    We conducted a brainstorming session, in which all group <mark class="primary-mark">members were given 
+                    a time of 5 minutes, in which we wrote down every single idea, without thinking 
+                    whether it might or might not fit the project.</mark> The ideas were mostly about the 
+                    content, but also about the UI and overall website. After the timer was up, 
+                    <mark class="secondary-mark">we went through every single note and analyzed them furthermore.</mark>
+                </p>
+                <img src="../assets/img/brainstorm.png" alt="Project management scheme">
+                <h3 class="step-secondary-title">4.1. Information Architecture</h3>
+                <p class="p-big step-p">
+                    Based on the restructured brainstorming sessions, analyzed interviews, 
+                    and data gathered from the client, we created an Information Architecture, 
+                    that served as a main source of content for the website.
+                </p>
+            </article>
+            <article class="project-step low-fidelity" id="low-fi-wireframes">
+                <p class="step-small-title">05. Low-fidelity wireframes</p>
+                <h2 class="step-main-title">Multiple integrations of low-fidelity wireframes</h2>
+                <p class="p-big step-p">
+                    Multiple versions of the potential website were made including many 
+                    iterations that in the end helped us to find the best solution for the 
+                    content and looks of the website.
+                </p>
+                <h3 class="step-secondary-title">4.1. Information Architecture</h3>
+                <p class="p-big step-p">
+                    Based on the restructured brainstorming sessions, analyzed interviews, 
+                    and data gathered from the client, we created an Information Architecture, 
+                    that served as a main source of content for the website.
+                </p>
+                <div class="double-img-flex">
+                    <img src="../assets/img/wireframe1.png" alt="Wireframe V1">
+                    <img src="../assets/img/wireframe2.png" alt="Wireframe V2">
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="small-grid-container">
+        <article class="project-step high-fidelity" id="hi-fi-design">
+                <p class="step-small-title">06. High-fidelity design<p>
+                <h2 class="step-main-title">The final design of the website</h2>
+                <p class="p-big step-p">
+                    As the final result we had developed total of 4 webpages that included 
+                    all the necessary information - working times, contact information, 
+                    information about the restaurant and its owners, the menu card and more.
+                </p>
+                <p class="embedd-help">You can view the final website, embedded down below.</p>
+            </article>
+    </div>
+    <div class="iframe">
+        <iframe class="final-design-embedd" height="700px" width="100%" src="https://mmd.ucn.dk/class/MDE-CSD-S21/10407761/gjolkro/" title="Gjol kro final design" frameborder="0"></iframe>
+    </div>
+    <div class="small-grid-container">
+        <section class="prev-next-buttons">
+                <article class="btn-nextprev btn-prev" onclick="mentorProject()">
+                    <p class="nextprev-title">Previous project</p>
+                   <p class="nextprev-sm-title">Student mentorship portal</p>                     
+                </article>
+                <article class="btn-nextprev btn-next" onclick="connorProject()">
+                    <p class="nextprev-title">Next project</p>
+                   <p class="nextprev-sm-title">Connor Fernandez - Musician portfolio</p>                     
+                </article>
+            </section>
+    </div>
+    
+    <div class="small-grid-container">
+        <section class="contact-me">
+        
+            <h3 class="contact-title">Are you interested in working on a project together
+                or see more from me?
+            </h3>
+            <p class="contact-text">Get in touch with me through <a href="mailto: burkevics242@gmail.com" class="c-email">Email</a>, 
+                connect with me on <a href="https://www.linkedin.com/in/reinis-burkevics-305960168/" class="c-linkedin" target="_blank">Linkedin</a>, or check out my
+                social media - <a href="https://www.instagram.com/reinissb/" class="c-instagram" target="_blank">Instagram</a>, 
+                <a href="https://dribbble.com/ReinissB" class="c-dribbble" target="_blank">Dribbble</a>, <a href="https://www.behance.net/reinissb" class="c-behance" target="_blank">Behance</a>
+            </p>
+        </section>
+    </div>
+    <div class="grid-container">
+        <footer>
+            <article class="logo">
+                Rb<span class="logo-dot">.</span>
+            </article>
+            <article class="right-side">
+                <nav class="main-nav-links">
+                    <ul>
+                        <li><a href="/index.html">My work</a></li>
+                        <li><a href="/aboutme/aboutme.html">Get to know me</a></li>
+                        <li><a href="/assets/pdf/reinis_burkevics_cv.pdf" class="ic-resume" target="_blank">My resume</a></li>
+                    </ul>
+                </nav>
+                <article class="footer-social-icons">
+                    <a href="https://instagram.com/ReinissB" class="instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-instagram" d="M14,10.4A3.6,3.6,0,1,0,17.6,14,3.6,3.6,0,0,0,14,10.4ZM14,8a6,6,0,1,1-6,6A6,6,0,0,1,14,8Zm7.8-.3a1.5,1.5,0,1,1-1.5-1.5A1.5,1.5,0,0,1,21.8,7.7ZM14,4.4c-2.969,0-3.454.008-4.835.07a6.519,6.519,0,0,0-2.158.4,3.464,3.464,0,0,0-1.3.844,3.468,3.468,0,0,0-.845,1.3,6.51,6.51,0,0,0-.4,2.158C4.407,10.49,4.4,10.953,4.4,14c0,2.969.008,3.454.07,4.835a6.545,6.545,0,0,0,.4,2.156,3.731,3.731,0,0,0,2.138,2.14,6.533,6.533,0,0,0,2.16.4c1.325.062,1.788.07,4.835.07,2.969,0,3.454-.008,4.835-.07a6.558,6.558,0,0,0,2.156-.4,3.505,3.505,0,0,0,1.3-.842,3.47,3.47,0,0,0,.845-1.3,6.56,6.56,0,0,0,.4-2.16c.062-1.325.07-1.788.07-4.835,0-2.969-.008-3.454-.07-4.835a6.532,6.532,0,0,0-.4-2.158,3.493,3.493,0,0,0-.844-1.3,3.461,3.461,0,0,0-1.3-.845,6.516,6.516,0,0,0-2.158-.4C17.51,4.407,17.047,4.4,14,4.4ZM14,2c3.26,0,3.667.012,4.946.072a8.84,8.84,0,0,1,2.914.558,5.851,5.851,0,0,1,2.126,1.384A5.89,5.89,0,0,1,25.37,6.14a8.865,8.865,0,0,1,.558,2.914C25.984,10.333,26,10.74,26,14s-.012,3.667-.072,4.946a8.871,8.871,0,0,1-.558,2.914,6.127,6.127,0,0,1-3.51,3.51,8.865,8.865,0,0,1-2.914.558C17.667,25.984,17.26,26,14,26s-3.667-.012-4.946-.072A8.871,8.871,0,0,1,6.14,25.37a6.127,6.127,0,0,1-3.51-3.51,8.834,8.834,0,0,1-.558-2.914C2.016,17.667,2,17.26,2,14s.012-3.667.072-4.946A8.834,8.834,0,0,1,2.63,6.14,5.856,5.856,0,0,1,4.014,4.014,5.876,5.876,0,0,1,6.14,2.63a8.834,8.834,0,0,1,2.914-.558C10.333,2.016,10.74,2,14,2Z" transform="translate(-2 -2)"/>
+                            <defs>
+                                <linearGradient id="instagradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                  <stop offset="0%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="5%" style="stop-color:#fdf497;stop-opacity:1" />
+                                  <stop offset="45%" style="stop-color:#fd5949;stop-opacity:1" />
+                                  <stop offset="60%" style="stop-color:#d6249f;stop-opacity:1" />
+                                  <stop offset="90%" style="stop-color:#285AEB;stop-opacity:1" />
+                                </linearGradient>
+                              </defs>
+                        </svg>   
+                    </a>
+                    <a href="https://www.linkedin.com/in/reinis-burkevics-305960168/" class="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                            <path id="svg-linkedin" d="M4.222,3H23.778A1.222,1.222,0,0,1,25,4.222V23.778A1.222,1.222,0,0,1,23.778,25H4.222A1.222,1.222,0,0,1,3,23.778V4.222A1.222,1.222,0,0,1,4.222,3ZM5.444,5.444V22.556H22.556V5.444ZM8.5,10.333A1.833,1.833,0,1,1,10.333,8.5,1.833,1.833,0,0,1,8.5,10.333ZM7.278,11.556H9.722v9.167H7.278ZM14,12.081a3.572,3.572,0,0,1,2.444-1.137,4.333,4.333,0,0,1,4.278,4.583v5.194H18.278V15.528a2.139,2.139,0,0,0-4.278,0v5.194H11.556V11.556H14Z" transform="translate(-3 -3)"/>
+                        </svg>  
+                     </a>
+                     <a href="https://dribbble.com/ReinissB" class="dribbble">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="svg-dribbble" d="M23.587,13.486A9.552,9.552,0,0,0,21.7,8.265a11.7,11.7,0,0,1-1.1,1.044,15.788,15.788,0,0,1-3.976,2.412c.2.42.384.827.546,1.211v0q.069.161.132.324a23.033,23.033,0,0,1,5.588.121c.247.034.48.07.7.106ZM12.325,4.546a55.4,55.4,0,0,1,3.23,5.124,13.327,13.327,0,0,0,3.658-2.12,9.456,9.456,0,0,0,.955-.906A9.562,9.562,0,0,0,14,4.4a9.66,9.66,0,0,0-1.675.145ZM4.7,11.6q1.226-.031,2.448-.148a37.837,37.837,0,0,0,5.834-.986q-1.5-2.61-3.24-5.072A9.622,9.622,0,0,0,4.7,11.6ZM6.54,20.042a17.128,17.128,0,0,1,1.89-2.279,15.148,15.148,0,0,1,6.187-3.948l.074-.022c-.2-.437-.384-.827-.571-1.194a36.1,36.1,0,0,1-6.836,1.25c-1.128.1-2.14.146-2.884.154a9.56,9.56,0,0,0,2.141,6.038ZM17.606,22.9a43.136,43.136,0,0,0-1.958-6.851,15.215,15.215,0,0,0-5.8,3.67A11.724,11.724,0,0,0,8.271,21.7a9.615,9.615,0,0,0,9.335,1.2Zm2.248-1.29a9.6,9.6,0,0,0,3.584-5.844,14.648,14.648,0,0,0-1.494-.283,14.428,14.428,0,0,0-3.816-.04,47.241,47.241,0,0,1,1.726,6.168ZM14,26A12,12,0,1,1,26,14,12,12,0,0,1,14,26Z" transform="translate(-2 -2)"/>
+                        </svg>                       
+                     </a>
+                     <a href="https://www.behance.net/reinissb" class="behance">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="18.493" viewBox="0 0 26 18.493">
+                            <path id="svg-behance" d="M8.682,12.656A2.463,2.463,0,0,0,11.045,10.1,2.463,2.463,0,0,0,8.682,7.552H3.364v5.1Zm1.182,2.552h-6.5v5.1h6.5a2.463,2.463,0,0,0,2.364-2.552A2.463,2.463,0,0,0,9.864,15.208ZM12.3,13.386a5.291,5.291,0,0,1,2.119,5.74,4.8,4.8,0,0,1-4.557,3.738H1V5H8.682a4.717,4.717,0,0,1,4.284,2.947A5.431,5.431,0,0,1,12.3,13.386Zm5.835-7.11h6.5V8.19h-6.5ZM27,17.122H18.136v.319a3.467,3.467,0,0,0,2.49,3.413,3.175,3.175,0,0,0,3.655-1.818H26.8a5.637,5.637,0,0,1-6.161,4.4,5.928,5.928,0,0,1-4.871-6V15.527a5.85,5.85,0,0,1,5.614-6.061A5.85,5.85,0,0,1,27,15.527v1.595ZM24.513,14.57a3.192,3.192,0,0,0-6.254,0Z" transform="translate(-1 -5)"/>
+                        </svg> 
+                     </a>
+                </article>
+                <div class="back-to-top">
+                    <button class="btn-top" type="submit" onclick="backToTop()">
+                        <svg id="svg-top" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="Path_11" data-name="Path 11" d="M0,24H24V0H0Z" fill="none"/>
+                            <path id="Path_12" data-name="Path 12" d="M13,7.828l5.364,5.364,1.414-1.414L12,4,4.222,11.778l1.414,1.414L11,7.828V20h2Z" fill="#eaeaf3"/>
+                        </svg>                      
+                    </button>
+                </div> 
+            </article>
+            
+        </footer>
+    </div>
+
+</body>
+</html>

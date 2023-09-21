@@ -1,0 +1,226 @@
+
+/* Header content */
+header {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/header-bg.png');
+    background-size: cover;
+}
+
+.header-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-info {
+    position: absolute;
+    top: 22%;
+}
+
+.main-title {
+    font-size: 4.444vw;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    color: var(--lightestgrey);
+}
+
+.p-header {
+    max-width: 627px;
+    margin: 0 auto;
+    color: var(--lightgrey2);
+}
+
+/* Media query for header */
+
+@media screen and (max-width: 1550px) {
+
+    .header-content {
+        margin-top: 25px;
+    }
+}
+
+.svg-corner-line {
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    overflow: hidden;
+}
+
+/* What i do */
+
+.what-i-do {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.what-i-do-title {
+    max-width: 344px;
+    margin-right: 120px;
+}
+
+.what-i-do-el {
+    /*border: 1px solid var(--darkborder);
+    */background-color: var(--bgdarkblue);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    height: 340px;
+    width: 291px;
+    position: relative;
+    transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -ms-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+    -webkit-transition: 0.4s ease-out;
+}
+
+.what-i-do-el:hover {
+    background: rgb(146,130,255);
+    background: linear-gradient(36deg, rgba(146,130,255,0.13) 0%, rgba(83,58,255,0.19) 100%);
+}
+
+
+
+
+.what-i-do-content > .small-title {
+    padding: 30px 0 15px 0;
+}
+
+.what-i-do-el:hover .button-about-me {
+    display: flex;
+}
+
+
+.what-i-do-content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+
+.what-i-do-content > .small-title {
+    color: var(--lightestgrey);
+}
+
+.what-i-do-el:hover .p-small {
+    color: var(--lightgrey2);
+}
+
+/* Projects */
+
+.projects {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.p-project::before {
+    content: url(../svg/svg-check.svg);
+    padding-right: 15px;
+    padding-top: 2px;
+}
+
+.p-project {
+    line-height: 1.722em;
+    display: flex;
+}
+.project-about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.project > h2 {
+    padding-bottom: 0;
+}
+
+.project {
+    background-color: var(--bgdarkblue);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 540px;
+    cursor: pointer;
+}
+
+.project-img > img {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 90%;
+    margin-left: calc(540px - (540px - (8% / 2)));
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+
+.project-right{
+    flex-direction: row-reverse;
+}
+
+.project:hover > .project-img > img {
+    width: 100%;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.project-about {
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+}
+
+.project:hover > .project-about {
+    transform: scale(1.025);
+    -webkit-transform: scale(1.025);
+    -moz-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    -o-transform: scale(1.025);
+}
+
+/* .project:hover {
+    gap: 3.5vw;
+} */
+
+/* Internship */
+
+.looking-internship {
+    padding: 12px 18px 12px 18px;
+    background: rgb(146,130,255);
+    background: linear-gradient(36deg, rgba(146,130,255,0.13) 0%, rgba(83,58,255,0.19) 100%);
+    font-size: 0.833rem;
+    font-weight: 500;
+    color: var(--purplegrey);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    width: fit-content;
+    margin: 0 auto;
+    border: 2px solid var(--purple);
+}
+

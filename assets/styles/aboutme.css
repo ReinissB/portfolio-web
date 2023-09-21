@@ -1,0 +1,151 @@
+/* Header */
+
+header {
+    height: 100vh;
+}
+
+.scroll-down {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.scroll-down > p {
+    color: var(--lightgrey2);
+}
+
+.intro-title {
+    color: var(--lightestgrey);
+    font-weight: bold;
+    font-size: 1.666rem;
+    line-height: 1.6em;
+    padding-bottom: 30px;
+}
+
+.intro-text {
+    font-size: 1.111rem;
+    line-height: 1.944em;
+    max-width: 540px;
+    padding-bottom: 16vh;
+}
+
+.header-content {
+    margin-top: 6vw;
+    position: relative;
+}
+
+.intro-title {
+    max-width: 975px;
+}
+
+.header-thumbnail {
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+.header-thumbnail > svg {
+    position: absolute;
+    bottom: 20%;
+    right: -5%;
+}
+
+.header-path {
+    position: absolute;
+    left: 0;
+    top: calc(100vh - 136px);
+}
+
+/* About me */
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 487px 487px;
+    gap: 30px;
+    grid-template-areas: 
+    "abouttext sports discomfort"
+    ". games relaxing";
+    margin-top: 100px;
+    margin-bottom: 160px;
+    position: relative;
+}
+
+.about-fact {
+    background-color: var(--bgdarkblue);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    position: relative;
+    transition: 0.4s ease-out;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -ms-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+}
+
+.about-fact:hover {
+    background: rgb(146,130,255);
+    background: linear-gradient(36deg, rgba(146,130,255,0.13) 0%, rgba(83,58,255,0.19) 100%);
+}
+
+
+.about-me-text {
+    grid-area: abouttext;
+    padding-top: 35px;
+}
+
+.sports {
+    grid-area: sports;
+}
+
+.discomfort {
+    grid-area: discomfort;
+}
+
+.games {
+    grid-area: games;
+}
+
+.relaxing {
+    grid-area: relaxing;
+}
+
+.about-me-text > .secondary-title, 
+.about-me-text > .p-big {
+    max-width: 394px;
+}
+
+.about-fact-content {
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    bottom: 45px;
+}
+
+.about-fact-content > h4 {
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.about-photo {
+    position: absolute;
+    left: calc((100vw - (1434px/2)) - (100vw - 1434px));
+    left: -243px;
+    bottom: 0;
+}
+
+.text-expand {
+    display: none;
+}
+
+.about-fact:hover .text-expand {
+    display: block;
+}
+
+/* Scroll down */
+
+.scroll-down {
+    position: static;
+}
